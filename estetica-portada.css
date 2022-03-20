@@ -1,0 +1,34 @@
+.portada {
+    display: flex;    
+}
+
+.portada__h1 {
+    z-index: 100;
+    position: absolute;
+    top: 35%;    
+    left: 2%;
+    text-align: center;
+}
+
+.portada__h1 h1 {
+    font-weight: 400;
+    font-size: 450%;
+}
+
+.portada__h1 p {
+    font-weight: 200;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.portada__imagen {
+    width: 100%;
+}
+
+.portada__imagen img {
+    height: 100%;
+    width: 100%;    
+    border: none;
+    object-fit: cover;
+}

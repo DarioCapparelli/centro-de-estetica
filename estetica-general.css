@@ -1,0 +1,45 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contenedor {
+    background-color: ivory !important;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5rem !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+    font-weight: 400;
+    color: crimson;
+    letter-spacing: 2px;
+    transition: all 1s;
+}
+
+h2:hover {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: brown;
+    letter-spacing: 8px;
+}
+
+.wpp-icon {
+    position: fixed;
+    left: 94%;
+    top:88%;
+    height: 70px;
+    width: 70px;
+    z-index: 100;
+}

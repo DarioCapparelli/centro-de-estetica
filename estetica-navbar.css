@@ -1,0 +1,32 @@
+.navbar {    
+    align-items: center;
+    width: 100vh !important;
+    margin: 0%;
+}
+
+.navbar__list {
+    display: flex;
+    background-color: pink;
+    margin: auto;
+    justify-content: center;
+}
+
+.navbar__item {
+    list-style: none;
+    padding: 10px 35px 10px 35px;
+}
+
+.navbar__item:hover {
+    list-style: none;
+    padding: 10px 35px 10px 35px;
+    background: rgb(255, 162, 177);
+    transition: background-color .65s;
+}
+
+a {
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
