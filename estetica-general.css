@@ -11,7 +11,8 @@ main {
 }
 
 .contenedor {
-    background-color: ivory !important;
+    width: 100% !important;
+    background-color: rgba(255, 228, 225, 0.534);
 }
 
 h2 {
@@ -42,4 +43,22 @@ h2:hover {
     height: 70px;
     width: 70px;
     z-index: 100;
+}
+
+@media screen and (max-width: 900px){
+
+    .contenedor {
+        width: 850px !important;
+        background-color: rgba(255, 228, 225, 0.534);
+    }
+
+    .wpp-icon {
+        position: fixed;
+        left: 90%;
+        top:88%;
+        height: 70px;
+        width: 70px;
+        z-index: 100;
+    }
+
 }
